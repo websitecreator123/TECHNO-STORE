@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALL PRODUCTS - TECHNO STORE</title>
+    <link rel="stylesheet" href="STYLE.CSS">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,400;0,600;0,700;1,200&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/TECHNO STORE new logo.png" width="125px">
+            </div>
+            <nav>
+                <ul id="menuitems">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Product</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+            <img src="images/cart.png" width="30px" height="30px">
+            <img src="images/menu.png" class="menu-icon">
+        </div>
+    </div>
+        <div class="small-container">
+<!------cart items details------>
+<div class="small-container cart-page">
+    <table>
+        <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Subtotal</th>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="images/buy-1.jpg">
+                    <div>
+                        <p>Red Puma Tshirt</p>
+                        <small>Price: ₹220.00</small>
+                        <br>
+                        <a href="removing products.html">Removed</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>₹220.00</td>
+        </tr>
+
+
+
+    </table>
+
+    <div class="total-amount">
+        <table>
+            <tr>
+                <td>Subtotal</td>
+                <td>₹220.00</td>
+            </tr>
+            <tr>
+                <td>Tax</td>
+                <td>₹65.00</td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td>₹285.00</td>
+                <a href="payment.html" class="btn">Proceed to Checkout</a>
+            </tr>
+        </table>
+
+    </div>
+
+
+
+
+
+</div>
+           
+<!--------- footer------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download our App</h3>
+                <p>Download App for Android and Ios Mobile Phone.</p>
+            </div>
+            <div class="footer-col-2">
+                <p>Thank you for visiting our website</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Usefull Links</h3>
+                <ul>
+                    <li>coupon</li>
+                    <li>privacy policy</li>
+                    <li>join affiliate</li>
+                    <li>blog post</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                    <li>Facebook</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2021 - Techno Faris</p>
+    </div>
+</div>
+
+
+<!---------js for toggle menu---------->
+<script>
+    var menuitems = document.getElementById("menuitems");
+
+    menuitems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(menuitems.style.maxHeight == "0px")
+        {
+            enuitems.style.maxHeight = "200px";
+        }
+        else{
+            enuitems.style.maxHeight = "0px";
+        }
+    }
+
+</script>
+
+</body>
+</html>
